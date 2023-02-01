@@ -1,0 +1,169 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+/* Header */
+header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about section parts */
+section {
+  width: 700px;
+  height: 375px;
+}
+/* my about section */
+.section-about {
+  display: block;
+  float: right;
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  margin-top: 15px;
+  margin-right: 75px;
+}
+
+.section-about h3 {
+  text-align: center;
+}
+
+.section-about li {
+  padding-left: 25px;
+}
+
+.section-about p {
+  text-align: left;
+}
+/* section image section */
+.section-image {
+  margin-top: 100px;
+  margin-left: 25px;
+  width: 225px;
+  height: auto;
+  float: left;
+}
+
+/* petes background section */
+
+.section-background {
+  width: 600px;
+  height: 300px;
+}
+/* Containers */
+
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+  flex: 1;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  float: left;
+}
+
+.image-circle {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 2px solid #003049;
+  border-radius: 50%;
+  float: left;
+}
+
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+}
+
+.alignright {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+
+.flexp{
+  display:flex;
+  gap: 60px;
+}
+
+.ptext {
+  font-size: 14px;
+  text-align: center;
+}
+
+.headerthree {
+  text-align: right;
+}
+
+.divabout {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 5px;
+}
